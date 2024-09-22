@@ -2,7 +2,7 @@
 ## How to use
 ### 1.Setup Environment - Shell/Terminal
 ```
-cd submission
+cd dashboard
 pipenv install
 pipenv shell
 pip install streamlit
