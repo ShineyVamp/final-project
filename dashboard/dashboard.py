@@ -201,5 +201,3 @@ elif section == 'Geospatial Distribution':
         ax.set_xlabel('Station')
         ax.set_ylabel('PM10 (µg/m³)')
         st.pyplot(fig)
-
-
