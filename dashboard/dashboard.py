@@ -18,9 +18,9 @@ def create_daily_air_quality_df(df):
     }).reset_index()
     return daily_air_quality_df
 
-gabungan_data = pd.read_csv('gabungan.csv', parse_dates=['date'])
-dongsi_data = pd.read_csv('dongsi.csv', parse_dates=['date'])
-changping_data = pd.read_csv('changping.csv', parse_dates=['date'])
+gabungan_data = pd.read_csv("https://raw.githubusercontent.com/ShineyVamp/final-project/refs/heads/main/dashboard/gabungan.csv", parse_dates=['date'])
+dongsi_data = pd.read_csv("https://raw.githubusercontent.com/ShineyVamp/final-project/refs/heads/main/dashboard/dongsi.csv", parse_dates=['date'])
+changping_data = pd.read_csv("https://raw.githubusercontent.com/ShineyVamp/final-project/refs/heads/main/dashboard/changping.csv", parse_dates=['date'])
 
 #buat dataframe harian
 dongsi_hari_df = create_daily_air_quality_df(dongsi_data)
