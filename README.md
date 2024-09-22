@@ -5,7 +5,6 @@
 cd dashboard
 pipenv install
 pipenv shell
-pip install streamlit
 pip install -r requirements.txt
 ```
 ### 2.Buka dashboard
