@@ -2,7 +2,7 @@
 ## How to use
 ### 1.Setup Environment - Shell/Terminal
 ```
-cd dashboard
+cd final-project-main
 pipenv install
 pipenv shell
 pip install -r requirements.txt
