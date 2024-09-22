@@ -11,5 +11,5 @@ pip install -r requirements.txt
 cd dashboard
 streamlit run dashboard.py
 ```
-### Preview
+### Preview stream lit cloud
 https://lumayasn.streamlit.app/
