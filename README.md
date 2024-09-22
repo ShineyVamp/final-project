@@ -2,7 +2,7 @@
 ## How to use
 ### 1.Setup Environment - Shell/Terminal
 ```
-cd git clone https://github.com/mhdhfzz/data-analyst-dicoding.git
+cd git clone https://github.com/ShineyVamp/final-project.git
 pipenv install
 pipenv shell
 pip install -r requirements.txt
